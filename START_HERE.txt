@@ -1,0 +1,61 @@
+CIVIC ATLAS — PRIVATE POLITICAL VALUES EXPLORER (2026)
+====================================================
+
+This is a COMPLETE WEBSITE ready for GitHub Pages and iPhone / Android / PC.
+
+WHAT IS INCLUDED
+- index.html            main website (THIS must be in the root of your GitHub repository)
+- app.js                quiz, opinions, results, comparisons, save/restore, simulator
+- data.js               20 core questions, 75 optional policy issues, 158 ideology profiles
+- styles.css            desktop / tablet / iPhone design
+- manifest.webmanifest  installable home screen app settings
+- sw.js                 offline cache, used when the site is hosted over HTTPS
+- icons/                all the app icons
+- .nojekyll             tells GitHub Pages to publish these files as they are
+
+HOW TO USE IT ON YOUR COMPUTER
+- Extract ZIP and open index.html in Google Chrome.
+- Keep the other files next to index.html.
+- For a single-file desktop version, use the separate Civic_Atlas_Standalone.html download.
+
+HOW TO REPLACE YOUR OLD POLITICAL ATLAS WEBSITE FOR FREE
+Your existing repository: https://github.com/igotskills06/Political-Atlas
+Expected site URL if GitHub Pages is enabled: https://igotskills06.github.io/Political-Atlas/
+
+1. Extract this ZIP on your computer.
+2. Open the GitHub repository listed above.
+3. Replace the site's existing root-level index.html, app-related assets and icons
+   with the NEW files from inside this extracted ZIP.
+   IMPORTANT: The files must be in the root of the repository, not nested inside a
+   Civic_Atlas_Website/ folder. Keep the icons/ subfolder intact.
+4. Commit your changes to the 'main' branch.
+5. In Settings -> Pages, the source should be 'Deploy from a branch', main, / (root).
+6. Once published, open your site in iPhone Safari.
+7. Choose Share -> Add to Home Screen -> Open as Web App (if shown) -> Add.
+
+TIP: If you see the old V6 after updating, refresh Safari and reopen the app.
+Updates may take a short time to deploy and offline caches to replace.
+
+YOU DO NOT NEED A SUBSCRIPTION, AN APP STORE ACCOUNT, OR A BACKEND.
+GitHub Pages needs a PUBLIC repository on the standard free personal plan.
+The quiz itself does not upload your answers to GitHub or any external server.
+
+SHARE / IMPORT
+- Save & Share -> Copy my code to preserve and share your opinions.
+- Import compatible result codes from the older Political Atlas V5 / V6 app.
+- You can save an independent JSON backup and a shareable PNG result card.
+
+METHODS & LIMITS
+- 20 broad core sliders. You can see a preliminary result after 8 answers.
+- 75 OPTIONAL issues: you don't need to answer them all.
+- 158 ideology profiles, including schools that are too specific for auto matching.
+- Historical government/movement references are APPROXIMATE illustrative examples.
+- The similarity percentages are editorial closeness scores, NOT predictions,
+  scientific probabilities, political endorsements, or voting advice.
+- Issue summaries are a dated reference library, NOT live updates to the news.
+
+SOURCES
+https://www.pewresearch.org/collections/political-typology/
+https://www.pewresearch.org/politics/2026/10/08/economy-ranks-as-top-issue-in-midterms-for-all-voters-but-partisans-differ-over-the-importance-of-other-issues/
+https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+https://support.apple.com/guide/iphone/iphea86e5236/ios
